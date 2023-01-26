@@ -7,8 +7,8 @@ L'obbiettivo è quello di facilitare lo scraping di email aziendali da più siti
 
 instruzioni d'uso:
 
-clona la repository
-fail il change dir dentro la repo
+clona la repository 
+fai il change dir dentro la repo
 installa i req con pip install -r requirements.txt
 esegui la script con python3 scrape.py
 
