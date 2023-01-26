@@ -2,13 +2,13 @@ import re
 import requests
 from bs4 import BeautifulSoup
 
-# Chiedi all'utente di inserire i siti web da cui estrarre gli indirizzi email
+
 sites = input("Inserisci gli URL dei siti web separati da virgola:").split(',')
 file_name = input("Inserisci il nome del file in cui salvare gli indirizzi email:")
 
 emails = []
 
-# Analizza i siti web uno per uno
+
 for site in sites:
     response = requests.get(site)
     soup = BeautifulSoup(response.text, 'html.parser')
