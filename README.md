@@ -9,7 +9,7 @@ instruzioni d'uso:
 
 clona la repository 
 fai il change dir dentro la repo
-installa i req con pip install -r requirements.txt
+installa i requirements con pip install -r requirements.txt
 esegui la script con python3 scrape.py
 
 
